@@ -58,6 +58,8 @@
 
 .hero__btn {
   margin-top: 32px;
+  position: relative;
+  z-index: 250;
 }
 
 .hero__advantages {
@@ -126,6 +128,10 @@
       // width: 100%;
     }
   }
+
+  @include media.md-up {
+    border: unset;
+  }
 }
 
 .hero__slider-card {
@@ -135,6 +141,7 @@
   align-items: center;
   text-align: center;
   padding: 16px 40px 31px;
+  gap: 12px;
   background-color: var(--c-grey00);
 }
 
@@ -167,6 +174,10 @@
   font-size: 15px;
   line-height: 130%;
   margin: 0;
+
+  @include media.md-up {
+    margin-top: 12px;
+  }
 }
 
 .hero__doctors {
