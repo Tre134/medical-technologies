@@ -23,7 +23,7 @@
 .hero__mob-image {
   top: 0;
   margin-left: -1.25rem;
-  width: 100%;
+  width: calc(100% + 2.5rem);
   position: relative;
 
   img {
@@ -48,7 +48,7 @@
   max-width: 653px;
   width: 100%;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 150%;
 
   @include media.xl-up {
