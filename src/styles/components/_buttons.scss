@@ -1,0 +1,18 @@
+.btn {
+  border: none;
+  outline: none;
+  padding: 11px 24px;
+
+  &--primary {
+    background-color: var(--c-primary);
+    color: var(--c-grey00);
+    border-radius: 8px;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    font-size: 15px;
+
+    &:hover {
+      background-color: var(--c-primary-dark);
+    }
+  }
+}

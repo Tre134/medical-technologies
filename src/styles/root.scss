@@ -1,0 +1,34 @@
+@use 'helpers/vars';
+
+:root {
+  // [ FONTS ]
+  --f-base: 'Stolzl', sans-serif;
+
+  // [ COLOURS ]
+  --c-primary: #3e989a;
+  --c-primary-dark: #358081;
+
+  --c-grey00: #FFFFFF;
+  --c-grey10: #f5f6f6;
+  --c-grey20: #e5e7e7;
+  --c-grey100: #222222;
+  --c-black: #000000;
+
+  // [ BORDER RADIUS ]
+  --b-radius-xs: 15px;
+  --b-radius: 20px;
+  --b-radius-md: 25px;
+  --b-radius-lg: 50px;
+  --b-radius-xl: 100px;
+  --b-radius-round: 9999px;
+
+
+  // [ Z-INDEX ]
+  --z-bottom: 10;
+  --z-middle-bottom: 100;
+  --z-middle: 150;
+  --z-middle-top: 200;
+  --z-top-10: 300;
+  --z-top-20: 400;
+  --z-top-30: 500;
+}

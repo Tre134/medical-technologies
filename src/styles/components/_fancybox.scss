@@ -1,0 +1,24 @@
+.fancybox__container {
+  --fancybox-bg: rgba(24, 24, 27, 0.80);
+}
+
+.fancybox__slide {
+  padding: 12px;
+}
+
+.fancybox__caption {
+  font-size: 16px;
+}
+
+.is-compact .fancybox__content > .f-button.is-close-btn {
+  --f-button-bg: transparent;
+  color: #2E3A4C;
+  --f-button-svg-width: 24px;
+  --f-button-svg-height: 24px;
+}
+
+html.with-fancybox {
+  scroll-behavior: smooth !important;
+  scrollbar-gutter: stable !important;
+  --fancybox-scrollbar-compensate: 0px !important;
+}
