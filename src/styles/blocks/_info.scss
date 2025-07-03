@@ -67,7 +67,7 @@
 
 .tabs__tabs-level-1 {
   background-color: var(--c-grey10);
-  padding: 36px 24px;
+  padding: 20px 16px;
   border-radius: 12px;
   display: flex;
   justify-content: center;
@@ -79,6 +79,7 @@
   @include media.xl-up {
     display: block;
     margin: 0;
+    padding: 36px 24px;;
   }
 }
 
